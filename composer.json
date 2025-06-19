@@ -1,8 +1,8 @@
 {
-	"name" : "plexophp/php-sdk",
+	"name" : "plexophpv2/php-sdk",
 	"type" : "library",
 	"license" : "AGPL-3.0-only",
-	"description" : "Plexo SDK para PHP",
+	"description" : "Plexo SDK para PHP 8.2+",
 	"autoload" : {
 		"psr-4" : {
 			"Plexo\\Sdk\\" : "src"
