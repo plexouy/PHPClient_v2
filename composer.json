@@ -1,0 +1,26 @@
+{
+	"name" : "plexophp/php-sdk",
+	"type" : "library",
+	"license" : "AGPL-3.0-only",
+	"description" : "Plexo SDK para PHP",
+	"autoload" : {
+		"psr-4" : {
+			"Plexo\\Sdk\\" : "src"
+		},
+		"files" : [
+			"src/Utilities/functions.php"
+		]
+	},
+	"scripts" : {
+		"test" : "./vendor/bin/phpunit --bootstrap vendor/autoload.php tests"
+	},
+	"require" : {
+		"php" : ">=8.2",
+		"psr/log" : "^1.0"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^11",
+		"monolog/monolog" : "^2.2",
+		"rector/rector": "^2.0"
+	}
+}
